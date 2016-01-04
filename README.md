@@ -9,7 +9,7 @@
 
 APIキーを取得したら、``hl_setting <USERNAME> <APIKEY>``を実行してください。
 
-[Download](https://github.com/geckotang/alfredworkflow/raw/master/HatebuList.alfredworkflow)
+[Download](https://github.com/geckotang/alfred-hatebulist/releases/download/v1.0.0/HatebuList.alfredworkflow)
 
 ## Commands
 
