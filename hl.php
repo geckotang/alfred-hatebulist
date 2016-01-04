@@ -31,7 +31,7 @@ $x_wsse = sprintf('UsernameToken Username="%s", PasswordDigest="%s", Nonce="%s",
 	  base64_encode($nonce),
 	  $created);
 $context = stream_context_create(
-	     array('http' => array('header' => "X-WSSE: $x_wsse"))
+	     array('http' => array('header' => "X-WSSE: $x_wsse\r\n"."User-Agent: HatebuList.alfredworkflow"))
 	   );
 $file = file_get_contents($url, 0, $context);
 $json = json_decode($file);
